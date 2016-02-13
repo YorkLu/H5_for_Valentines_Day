@@ -1,0 +1,212 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'STZhongsong16f1172f94914' !important;
+}
+
+body {
+    background: 0 0 no-repeat url(../img/bg.jpg);
+    background-size: 100% 100%;
+}
+
+.content {
+}
+
+.pattern {
+    width: 100%;
+    background: 0 0 no-repeat url(../img/bg_pattern.png);
+    background-size: 100% 100%;
+    position: absolute;
+    left: 0;
+    top: 13.6%;
+}
+
+.title {
+    position: absolute;
+    top: 24.3%;
+}
+
+.title-upper {
+    left: 38%;
+    background: 0 0 no-repeat url(../img/title_upper.jpg);
+    background-size: 100% 100%;
+    z-index: 3;
+    box-shadow: 0px 10px 5px 4px rgba(0, 0, 0, 0.18);
+}
+
+.title-lower {
+    background: 0 0 no-repeat url(../img/title_lower.jpg);
+    left: 41.7%;
+    background-size: 100% 100%;
+    z-index: 2;
+    box-shadow: 0px 8px 4px 2px rgba(0, 0, 0, 0.25);
+}
+
+.name {
+    position: absolute;
+    margin: 0;
+}
+
+.name-cn {
+    width: 1px;
+    top: 24.3%;
+    left: 60%
+}
+
+.name-en {
+    left: 50%;
+    width: 300px;
+    margin-left: -150px;
+}
+
+.bottom-text {
+    position: absolute;
+    width: 80%;
+    margin-left: 10%;
+    bottom: 3%;
+}
+
+.frame {
+    position: absolute;
+    background: 0 0 no-repeat url(../img/frame.png);
+    background-size: 100% 100%;
+    width: 100%;
+    top: 10%;
+    z-index: 6;
+}
+
+.pic_01 {
+    background: 0 0 no-repeat url(../img/pic_01.png);
+    background-size: 100% 100%;
+}
+
+.pic_02 {
+    background: 0 0 no-repeat url(../img/pic_02.png);
+    background-size: 100% 100%;
+}
+
+.pic_03 {
+    background: 0 0 no-repeat url(../img/pic_03.png);
+    background-size: 100% 100%;
+}
+
+.pic_04 {
+    background: 0 0 no-repeat url(../img/pic_04.png);
+    background-size: 100% 100%;
+}
+
+.pic_05 {
+    background: 0 0 no-repeat url(../img/pic_05.png);
+    background-size: 100% 100%;
+}
+
+.jigsaw {
+    position: absolute;
+    z-index: 4;
+    padding: 0;
+    left: 11.40%;
+    top: 10%;
+    background: 0 0 no-repeat url("../img/jigsaw.png");
+    background-size: 100% 100%;
+}
+
+.jigsaw-pieces {
+    position: relative;
+    width: 33.33333333%;
+    height: 33.33333333%;
+    float: left;
+    background: 0 0 no-repeat;
+    background-size: 100% 100%;
+    background-color: #fafafa;
+    box-shadow: 0px 0px 1px 1px rgba(255, 255, 255, 0.32) inset;
+}
+
+.click-on {
+    position: absolute;
+    z-index: 7;
+    padding: 0;
+    left: 11.40%;
+    top: 10%;
+}
+
+.click-on-pieces {
+    position: relative;
+    width: 33.33333333%;
+    height: 33.33333333%;
+    float: left;
+}
+
+.active2 {
+    background: rgba(255, 255, 255, 0.32);
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.32);
+}
+
+.after-passing-game {
+    display: none;
+}
+
+.section3, .section4, .section5 {
+    display: none;
+}
+
+.slide-fix {
+    width: 20% !important;
+    /*left:0% !important;*/
+    margin-left: 0%;
+}
+
+.letter-paper {
+    display: none;
+    background: 0 0 no-repeat url("../img/letter_paper.png");
+    background-size: 100% 100%;
+}
+
+.letter-paper p {
+    width: 80%;
+    height: 80%;
+    margin: 10%;
+    overflow-y: scroll;
+}
+
+.after-envelop-open {
+    display: none;
+}
+
+.section4 {
+    background: 0 0 no-repeat url("../img/bg_wechat.jpg");
+    background-size: 100% 100%;
+}
+
+.btn {
+    z-index: 5;
+    position: absolute;
+    width: 20%;
+    bottom: 2%;
+}
+
+.btn-left {
+    left: 10%;
+    background: 0 0 no-repeat url("../img/btn_left.png");
+    background-size: 100% 100%;
+    opacity: 0.40;
+}
+
+.btn-right {
+    right: 10%;
+    background: 0 0 no-repeat url("../img/btn_right.png");
+    background-size: 100% 100%;
+}
+
+.user-info {
+    position: absolute;
+    z-index: 4;
+    width: 44%;
+    left: 28%;
+    top: 12%;
+    background: 0 0 no-repeat url("../img/user_info.png");
+    background-size: 100% 100%;
+}

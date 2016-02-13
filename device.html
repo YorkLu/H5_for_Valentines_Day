@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>H5 for Valentines Day - test</title>
+  <!--这个页面供在PC上模拟手机端效果，调试用-->
+  <meta charset="UTF-8">
+  <link href="css/device.css" rel="stylesheet">
+</head>
+<body>
+<iframe class="device" src="home.html"></iframe>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script>
+  //设置宽度
+  $(".device").width(Math.round($(".device").height() * 0.5634));
+  //设置居中
+  $(".device").css("margin-left", ($(document.body).outerWidth(true) - $(".device").width() - 20) / 2);
+</script>
+</body>
+</html>

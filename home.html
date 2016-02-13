@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <!--适应移动端-->
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no,
+minimal-ui">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <!--不缓存-->
+  <META HTTP-EQUIV="pragma" CONTENT="no-cache">
+  <META HTTP-EQUIV="Cache-Control" CONTENT="no-cache, must-revalidate">
+  <META HTTP-EQUIV="expires" CONTENT="0">
+  <title>H5 for Valentines Day</title>
+  <link rel="stylesheet" href="css/jquery.fullPage.css">
+  <!--css-->
+  <link rel="stylesheet" href="css/home.css">
+  <!--WebFont-->
+  <link href='http://api.youziku.com/webfont/CSS/56badb2df629d80664cc2e37' rel='stylesheet' type='text/css'/>
+</head>
+<body>
+<!--全屏滑动-->
+<div id="content">
+  <!--第一屏：标题-->
+  <div class="section">
+    <div class="pattern"></div>
+    <div class="title title-upper"></div>
+    <div class="title title-lower"></div>
+    <p class="name name-cn">艾琳汉森</p>
+
+    <p class="name name-en">Erin Hanson</p>
+
+    <p class="bottom-text" onclick="$.fn.fullpage.moveSectionDown();">点击继续</p>
+  </div>
+  <!--第二屏：游戏-->
+  <div class="section">
+    <div class="frame"></div>
+    <div class="jigsaw">
+      <div class="jigsaw-pieces"></div>
+      <div class="jigsaw-pieces"></div>
+      <div class="jigsaw-pieces"></div>
+      <div class="jigsaw-pieces"></div>
+      <div class="jigsaw-pieces"></div>
+      <div class="jigsaw-pieces"></div>
+      <div class="jigsaw-pieces"></div>
+      <div class="jigsaw-pieces"></div>
+      <div class="jigsaw-pieces"></div>
+    </div>
+    <div class="click-on">
+      <div class="click-on-pieces"></div>
+      <div class="click-on-pieces"></div>
+      <div class="click-on-pieces"></div>
+      <div class="click-on-pieces"></div>
+      <div class="click-on-pieces"></div>
+      <div class="click-on-pieces"></div>
+      <div class="click-on-pieces"></div>
+      <div class="click-on-pieces"></div>
+      <div class="click-on-pieces"></div>
+    </div>
+    <p class="bottom-text before-passing-game" onclick="">依次点击两块拼图可以交换它们的位置，还原以继续阅读</p>
+
+    <p class="bottom-text after-passing-game" onclick="$.fn.fullpage.moveSectionDown();">已完成，点击继续</p>
+  </div>
+  <!--第三屏：画集-->
+  <div class="section section3">
+    <div class="slide">
+      <div class="frame slide-fix pic_01"></div>
+      <p class="bottom-text slide-fix" onclick="">艾琳汉森作品特点是“碎块的印象派油画”</p>
+    </div>
+    <div class="slide">
+      <div class="frame slide-fix pic_02"></div>
+      <p class="bottom-text slide-fix" onclick="">有开放式印象主义风格的开拓者之称</p>
+    </div>
+    <div class="slide">
+      <div class="frame slide-fix pic_03"></div>
+      <p class="bottom-text slide-fix" onclick="">嗯这不是她的作品</p>
+    </div>
+    <div class="slide">
+      <div class="frame slide-fix pic_04"></div>
+      <p class="bottom-text slide-fix" onclick="">总之这里有一句情话 :)</p>
+    </div>
+    <div class="slide">
+      <div class="frame slide-fix pic_05"></div>
+      <p class="bottom-text slide-fix before-envelop-open">点击信封拆开</p>
+
+      <p class="bottom-text slide-fix after-envelop-open">朕已阅</p>
+
+      <div class="frame slide-fix letter-paper">
+        <p>Lorem ipsum dolor sit amet, suspendisse vitae, curabitur potenti lectus. Tincidunt consectetuer nibh dapibus
+          risus justo, libero arcu minima iaculis inceptos mus, mi donec sem libero adipiscing egestas nulla, sit sit
+          vel, wisi quam sollicitudin. Varius aliquam. Elit tempor sit a pede sed, odio etiam bibendum et sed, sapien
+          in, donec pellentesque, condimentum consectetuer. Ligula egestas integer, sollicitudin quisque in rutrum,
+          placeat potenti dolor condimentum convallis vehicula pretium, consequat urna praesent, lacus eleifend quis
+          amet sed risus. Sagittis sed tempor hendrerit nonummy vitae, ultrices massa mi, ante vitae sed eu, turpis et
+          mauris amet luctus eu libero, magna vel eget amet rhoncus nec. Eu sit lectus, vestibulum luctus augue</p>
+      </div>
+    </div>
+  </div>
+  <!--第四屏：语音-->
+  <div class="section section4">
+    <audio preload autoplay class="music-player"></audio>
+    <div class="user-info"></div>
+    <div class="btn btn-left"></div>
+    <div class="btn btn-right"></div>
+  </div>
+  <!--第五屏：预留-->
+  <div class="section section5">
+    <h3>第5屏</h3>
+
+    <p>留给canvas动画，如最终不打算放则直接删掉</p>
+  </div>
+</div>
+</body>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/jquery.fullPage.js"></script>
+<script src="js/musicController.js"></script>
+<script src="js/animationController.js"></script>
+<script src="js/jigsaw.js"></script>
+</html>
